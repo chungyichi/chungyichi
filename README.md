@@ -8,11 +8,12 @@ I like distributed systems and schedulers, and I am learning formal verification
 
 ## Apache Kafka
 
-| Date | Change | Ticket |
-|---|---|---|
-| 2026-11-15 | [#24231](https://github.com/apache/kafka/pull/24231): remove `GroupConfigManager#close` | MINOR (no ticket) |
-| 2026-11-12 | [#23946](https://github.com/apache/kafka/pull/23946): use the ZK controller epoch when writing partition state znodes (ZK to KRaft migration) | KAFKA-20488 |
-| 2024-07-16 | [#16588](https://github.com/apache/kafka/pull/16588): unit test for an immutable return value | KAFKA-17133 |
+| Date | Change | Ticket | Status |
+|---|---|---|---|
+| 2026-11-15 | [#24231](https://github.com/apache/kafka/pull/24231): remove `GroupConfigManager#close` | MINOR (no ticket) | Merged |
+| 2026-11-12 | [#23946](https://github.com/apache/kafka/pull/23946): use the ZK controller epoch when writing partition state znodes (ZK to KRaft migration) | [KAFKA-20488](https://issues.apache.org/jira/browse/KAFKA-20488) | Merged |
+| 2024-07-16 | [#16588](https://github.com/apache/kafka/pull/16588): unit test for an immutable return value | [KAFKA-17133](https://issues.apache.org/jira/browse/KAFKA-17133) | Merged |
+| | `AlterPartitionRequest.Builder` should not change its own data when it builds an old version | [KAFKA-21607](https://issues.apache.org/jira/browse/KAFKA-21607) | Assigned, no PR yet |
 
 ## Apache YuniKorn
 
@@ -23,6 +24,7 @@ I like distributed systems and schedulers, and I am learning formal verification
 | 2026-11-23 | [99d32b491](https://github.com/apache/yunikorn-k8shim/commit/99d32b491): e2e tests for application rejection | [YUNIKORN-3528](https://issues.apache.org/jira/browse/YUNIKORN-3528) | Merged |
 | 2026-10-27 | [c85430617](https://github.com/apache/yunikorn-site/commit/c85430617): remove an outdated docs tip about `quota.preemption.delay` | [YUNIKORN-3526](https://issues.apache.org/jira/browse/YUNIKORN-3526) | Merged |
 | | Update the perf-tools build path in the performance tutorial | [YUNIKORN-3604](https://issues.apache.org/jira/browse/YUNIKORN-3604) | Assigned, no PR yet |
+| | Fix a panic in the `node-utilizations` REST API when a node is over-allocated | [YUNIKORN-3615](https://issues.apache.org/jira/browse/YUNIKORN-3615) | Assigned, no PR yet |
 
 ## Other contributions
 
